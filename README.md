@@ -3,18 +3,13 @@
 ## a. Problem statement
 Implement five foundational machine learning classification models on a benchmark dataset, compute performance metrics, and build an interactive Streamlit application deployed on Cloud.
 
-## b. Dataset description[cite: 3]
+## b. Dataset description
 - **Dataset Name**: Breast Cancer Wisconsin (Diagnostic) Dataset
-- **Instances**: 569[cite: 2]
-- **Features**: 30 numeric attributes[cite: 2]
+- **Instances**: 569
+- **Features**: 30 numeric attributes
 - **Target**: Binary classification (0 = Malignant, 1 = Benign)
-
-## c. Github Repository Link[cite: 3]
-[Insert your public GitHub repository URL here][cite: 1]
-
-## d. Models used[cite: 3]
-
-### Comparison Table[cite: 4]
+- 
+### Comparison Table
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---|---|---|---|---|---|
 | Logistic Regression | 0.9737 | 0.9680 | 0.9722 | 0.9859 | 0.9787 | 0.9412 |
@@ -23,7 +18,7 @@ Implement five foundational machine learning classification models on a benchmar
 | Naive Bayes | 0.9649 | 0.9590 | 0.9650 | 0.9789 | 0.9719 | 0.9205 |
 | Support Vector Machine | 0.9737 | 0.9680 | 0.9722 | 0.9859 | 0.9787 | 0.9412 |
 
-### Observations on Model Performance[cite: 4]
+### Observations on Model Performance
 | ML Model Name | Observation about model performance |
 |---|---|
 | Logistic Regression | Performed exceptionally well due to linear separability of scaled features, delivering high stability and MCC. |
