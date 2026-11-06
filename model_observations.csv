@@ -1,0 +1,7 @@
+ML Model Name,Observation about model performance
+Logistic Regression,"Performed exceptionally well due to the linear separability of the scaled feature space, achieving high accuracy and robust Matthews Correlation Coefficient (MCC)."
+Decision Tree,"Captured non-linear splits effectively, though it shows slightly higher variance and marginally lower MCC compared to linear models."
+KNN,"Performed consistently well following feature scaling, though sensitive to local neighborhood density variations."
+Naive Bayes,Yielded strong probabilistic baseline performance despite the strict feature independence assumption.
+Support Vector Machine,Achieved top-tier performance by identifying the optimal hyperplane with maximum margin separation on scaled data.
+"Overall, Winner for your dataset?",Logistic Regression & Support Vector Machine (Tied as top performers with maximum accuracy and stability).
